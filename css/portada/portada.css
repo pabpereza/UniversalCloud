@@ -1,0 +1,197 @@
+@import url(http://fonts.googleapis.com/css?family=Droid+Sans:bold);
+body {
+    overflow-x: hidden;
+    overflow-y: hidden;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -o-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+#wrapper {
+    padding-top: 30%;
+    background-image: url("../../images/portada/portada-fondo.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 0.7;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    font: 110.5%/1 "Lucida Sans Unicode", "Lucida Grande", Verdana, Arial, Helvetica, sans-serif;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+#titulo {
+    margin-top: 5%;
+}
+
+#titulo h1 {
+    text-align: center;
+    font-size: 5.5em;
+    letter-spacing: -7px;
+    font-weight: 700;
+    text-transform: uppercase;
+    animation: blur 3s infinite;
+    text-shadow: 0px 0px 5px #fff, 0px 0px 7px #fff;
+    margin: 0px;
+}
+
+#formularios {
+    position: absolute;
+    top: 15%;
+    display: block;
+    left: 25%;
+    background: transparent;
+    opacity: 1;
+    margin: 2%;
+    padding: 1%;
+    text-align: center;
+    opacity: 0;
+    transition: 2s linear;
+    color: black;
+}
+
+#formularios div {
+    display: inline-block;
+}
+
+#formularios form input {
+    display: block;
+    width: 100%;
+    margin: 4% 0%;
+    padding: 2px;
+    background-color: transparent;
+    border-color: #ff8b62;
+    border: 1px solid;
+}
+
+#div-login {
+    min-height: 100%;
+}
+
+#botones {
+    position: absolute;
+    top: 82%;
+    left: 47%;
+    color: black;
+}
+
+@keyframes blur {
+    0% {
+        color: rgba(255, 255, 255, 0.1);
+    }
+    50% {
+        color: rgba(255, 255, 255, 1);
+        text-shadow: 0px 3px 1px white;
+    }
+    100% {
+        color: rgba(255, 255, 255, 0.1);
+    }
+}
+
+
+/************  Efecto nubes  ***********/
+
+.clouds_one {
+    background: url("../../images/portada/cloud1.png");
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 80%;
+    width: 300%;
+    -webkit-animation: cloud_one 50s linear infinite;
+    -moz-animation: cloud_one 50s linear infinite;
+    -o-animation: cloud_one 50s linear infinite;
+    -webkit-transform: translate3d(0, 0, 0);
+    -moz-transform: translate3d(0, 0, 0);
+    -o-transform: translate3d(0, 0, 0);
+    opacity: 0.7;
+}
+
+.clouds_two {
+    background: url("../../images/portada/cloud2.png");
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 80%;
+    width: 300%;
+    -webkit-animation: cloud_two 75s linear infinite;
+    -moz-animation: cloud_two 75s linear infinite;
+    -o-animation: cloud_two 75s linear infinite;
+    -webkit-transform: translate3d(0, 0, 0);
+    -moz-transform: translate3d(0, 0, 0);
+    -o-transform: translate3d(0, 0, 0);
+    opacity: 0.7;
+}
+
+.clouds_three {
+    background: url("../../images/portada/cloud3.png");
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 80%;
+    width: 300%;
+    -webkit-animation: cloud_three 100s linear infinite;
+    -moz-animation: cloud_three 100s linear infinite;
+    -o-animation: cloud_three 100s linear infinite;
+    -webkit-transform: translate3d(0, 0, 0);
+    -moz-transform: translate3d(0, 0, 0);
+    -o-transform: translate3d(0, 0, 0);
+    opacity: 0.7;
+}
+
+@-webkit-keyframes cloud_one {
+    0% {
+        left: 0
+    }
+    100% {
+        left: -200%
+    }
+}
+
+@-webkit-keyframes cloud_two {
+    0% {
+        left: 0
+    }
+    100% {
+        left: -200%
+    }
+}
+
+@-webkit-keyframes cloud_three {
+    0% {
+        left: 0
+    }
+    100% {
+        left: -200%
+    }
+}
+
+@-moz-keyframes cloud_one {
+    0% {
+        left: 0
+    }
+    100% {
+        left: -200%
+    }
+}
+
+@-moz-keyframes cloud_two {
+    0% {
+        left: 0
+    }
+    100% {
+        left: -200%
+    }
+}
+
+@-moz-keyframes cloud_three {
+    0% {
+        left: 0
+    }
+    100% {
+        left: -200%
+    }
+}
